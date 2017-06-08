@@ -1,0 +1,27 @@
+{
+  "name": "xamjack-api",
+  "version": "0.0.1",
+  "description": "First Pass at the API for XamJack",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kennbox (nexware.com.ng)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "chance": "^1.0.6",
+    "cors": "^2.8.3",
+    "express": "^4.14.1",
+    "fakerator": "^0.3.0",
+    "json-beautify": "^1.0.1",
+    "moment": "^2.17.1",
+    "morgan": "^1.8.1",
+    "nedb": "^1.8.0",
+    "pug": "^2.0.0-beta11",
+    "purdy": "^2.2.1",
+    "redis": "^2.6.5",
+    "shortid": "^2.2.8"
+  }
+}
