@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Panel - Administration Setup</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="src/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- DataTable Core CSS -->
+    <link rel="stylesheet" type="text/css" href="src/bower_components/datatables.net/css/jquery.dataTables.min.css"/>
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Panel Administration</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Stats</a>
+                    </li>
+                    <li>
+                        <a href="user.html">Users</a>
+                    </li>
+                    <li>
+                        <a href="paper.html">Papers</a>
+                    </li>
+                    <li>
+                        <a href="result.html">Results</a>
+                    </li>
+                    <li>
+                        <a href="#">Social</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-left">
+                <h1>User Panel</h1>
+                <p class="lead">Under Construction!!!</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+        <!-- The Users Grid Row -->
+        <div class="row">
+            <table id="example" class="display" width="100%" cellspacing="0"> </table>
+	    </div>
+        <!-- /.row -->
+
+        <!-- Info/Message  Row -->
+        <div class="row">
+            <div class="col-lg-12 text-left">
+                <hr />
+                <p class="lead">Complete with pre-defined file paths that you won't have to change!!</p>
+                <hr />
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Row for Edit, Delete and Add new -->
+        <div class="row">
+            <!-- Row for Edit, Delete -->
+            <div class="col-md-6 portfolio-item">
+                put in content for edit and delete here
+		        <form>
+		          <div class="form-group">
+		            <label for="exampleInputEmail1">Email address</label>
+		            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleInputPassword1">Password</label>
+		            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		          </div>
+
+		          <div class="form-group">
+		            <label for="exampleInputEmail1">Email address</label>
+		            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		          </div>
+
+		          <div class="form-group">
+		            <label for="exampleSelect1">Preferred Exam</label>
+		            <select class="form-control" id="exampleSelect1">
+		              <option>UME</option>
+		              <option>WASSCE</option>
+		              <option>GRE</option>
+		              <option>SAT</option>
+		              <option>GCE</option>
+		            </select>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleTextarea">Example textarea</label>
+		            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleInputFile">File input</label>
+		            <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+		            <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+		          </div>
+		          
+		          <fieldset class="form-group">
+		            <legend>Sex</legend>
+		            <div class="form-check">
+		              <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			        Male
+		              </label>
+		            </div>
+		            <div class="form-check">
+		            <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+			        Female
+		              </label>
+		            </div>
+		          </fieldset>
+		          
+		          <div class="form-check">
+		            <label class="form-check-label">
+		              <input type="checkbox" class="form-check-input">
+		              Check me out
+		            </label>
+		          </div>
+		          <button type="submit" class="btn btn-primary">Submit</button>
+		        </form>        
+
+            </div>
+            
+            <!-- Row for Add new -->
+            <div class="col-md-6 portfolio-item">
+                put the add here 
+		        <form>
+		          <div class="form-group">
+		            <label for="exampleInputEmail1">Email address</label>
+		            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleInputPassword1">Password</label>
+		            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleSelect1">Example select</label>
+		            <select class="form-control" id="exampleSelect1">
+		              <option>1</option>
+		              <option>2</option>
+		              <option>3</option>
+		              <option>4</option>
+		              <option>5</option>
+		            </select>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleSelect2">Example multiple select</label>
+		            <select multiple class="form-control" id="exampleSelect2">
+		              <option>1</option>
+		              <option>2</option>
+		              <option>3</option>
+		              <option>4</option>
+		              <option>5</option>
+		            </select>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleTextarea">Example textarea</label>
+		            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+		          </div>
+		          <div class="form-group">
+		            <label for="exampleInputFile">File input</label>
+		            <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+		            <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+		          </div>
+		          <fieldset class="form-group">
+		            <legend>Radio buttons</legend>
+		            <div class="form-check">
+		              <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			        Option one is this and that&mdash;be sure to include why it's great
+		              </label>
+		            </div>
+		            <div class="form-check">
+		            <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+			        Option two can be something else and selecting it will deselect option one
+		              </label>
+		            </div>
+		            <div class="form-check disabled">
+		            <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+			        Option three is disabled
+		              </label>
+		            </div>
+		          </fieldset>
+		          <div class="form-check">
+		            <label class="form-check-label">
+		              <input type="checkbox" class="form-check-input">
+		              Check me out
+		            </label>
+		          </div>
+		          <button type="submit" class="btn btn-primary">Submit</button>
+		        </form>        
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="src/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="src/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- DataTable JQuery Plugin Core JavaScript -->
+    <script type="text/javascript" charset="utf8" src="src/bower_components/datatables.net/js/jquery.dataTables.js"></script>
+
+    <!-- User Panel Core JavaScript -->
+    <script src="src/user.js"></script>
+
+
+</body>
+
+</html>
