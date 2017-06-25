@@ -16,7 +16,7 @@ router.route('/')
   })
   .post((req, res) => {
     //console.log(model.paperModel.something());
-    model.userModel.createUser(req.body, function(err, data) {
+    model.user.create(req.body, function(err, data) {
       res.send(Purdy.stringify(data,{plain:true}));
     });
   });
